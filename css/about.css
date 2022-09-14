@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 60px;
+    background-color: cornflowerblue;
+}
+header p{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Old Standard TT', serif;
+}
+nav{
+    width: 100vw;
+    height: 60px;
+    background-color:deepskyblue;
+    text-align: right;
+    position: sticky;
+    /* text-align: right;*/
+}
+.logo{
+    float: left;
+    margin: 5px 20px;
+}
+nav ul{
+    list-style-type: none;
+
+}
+nav li{ 
+    display: inline-block;
+    margin: 20px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{ 
+    color: aqua;
+}
+nav ul li a:active{
+    color:aliceblue
+}

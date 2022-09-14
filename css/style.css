@@ -20,7 +20,12 @@ nav{
     height: 60px;
     background-color:deepskyblue;
     text-align: right;
-    /* text-align: center;*/
+    position: sticky;
+    /* text-align: right;*/
+}
+.logo{
+    float: left;
+    margin: 5px 20px;
 }
 nav ul{
     list-style-type: none;
