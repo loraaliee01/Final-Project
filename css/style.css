@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: deepskyblue;
+
 }
 header{
     width: 100vw;
@@ -61,7 +61,7 @@ main{
     position: relative;
     top: 30%;
     left: 8%;
-    background-color:deepskyblue;
+    background-color:#fff;
     padding: 15px;
     border-radius: 15px;
     box-shadow: 5px 5px rgba (136, 136, 136, .58);
@@ -74,7 +74,7 @@ article{
     height: 400px;
     background-color: deepskyblue;
     float:left;
-    border-style:double;
+    border-style: none;
 }
 article p{
     color: #000;
@@ -90,22 +90,24 @@ aside{
     height: 400px;
     background-color: deepskyblue;
     float: right;
-    border-style:double;
+    border-style: none;
 
 }
 aside p{
     color: #000;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding: 5px 10px;
     font-family: 'Macondo', cursive;
     position: relative;
     margin: 10px;
 }
-.button {
+button{
   padding: 15px 25px;
   font-size: 24px;
+  font-display: none;
   text-align: center;
+  text-decoration: none;
   cursor: pointer;
   outline: none;
   color: #fff;
@@ -114,4 +116,10 @@ aside p{
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
+button:hover {background-color: #3e8e41}
 
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
