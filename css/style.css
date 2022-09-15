@@ -76,7 +76,6 @@ article{
     width: 50%;
     height: 400px;
     float:left;
-    border-style: none;
 }
 article p{
     color: #000;
@@ -91,7 +90,6 @@ aside{
     width: 50%;
     height: 400px;
     float: right;
-    border-style: none;
 
 }
 aside p{
@@ -124,5 +122,48 @@ button:active {
 }
 footer{
     width: 100vw;
-    height: 60px;
+    height: 200px;
+}
+.US{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+  
+
+}
+.AUS{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float: right;
+   
+}
+.UK{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+}
+.SPA{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:right;
+}
+.MEX{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+}
+.FRA{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:right;
+}
+.signoff{
+    text-align: center;
+
 }
