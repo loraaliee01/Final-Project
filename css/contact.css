@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+#grad1 {
+    height: 200px;
+    background-color: deepskyblue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1));
+}
 header{
     width: 100vw;
     height: 60px;
-    background-color: cornflowerblue;
 }
 header p{
     color: #000;
@@ -18,7 +22,6 @@ header p{
 nav{
     width: 100vw;
     height: 60px;
-    background-color:deepskyblue;
     text-align: right;
     position: sticky;
     /* text-align: center;*/

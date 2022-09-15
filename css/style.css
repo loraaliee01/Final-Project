@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+}
+#grad1 {
+    height: 200px;
+    background-color: deepskyblue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1));
 }
 header{
     width: 100vw;
     height: 60px;
-    background-color: cornflowerblue;
 }
 header p{
     color: #000;
@@ -15,11 +18,11 @@ header p{
     text-align: center;
     padding: 5px 10px;
     font-family: 'Old Standard TT', serif;
+    
 }
 nav{
     width: 100vw;
     height: 60px;
-    background-color:deepskyblue;
     text-align: right;
     position: sticky;
     /* text-align: right;*/
@@ -59,9 +62,9 @@ main{
     text-align: center;
     float: left;
     position: relative;
+    background-color: #fff;
     top: 30%;
     left: 8%;
-    background-color:#fff;
     padding: 15px;
     border-radius: 15px;
     box-shadow: 5px 5px rgba (136, 136, 136, .58);
@@ -72,7 +75,6 @@ main{
 article{
     width: 50%;
     height: 400px;
-    background-color: deepskyblue;
     float:left;
     border-style: none;
 }
@@ -88,7 +90,6 @@ article p{
 aside{
     width: 50%;
     height: 400px;
-    background-color: deepskyblue;
     float: right;
     border-style: none;
 
@@ -111,15 +112,17 @@ button{
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #04AA6D;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
-button:hover {background-color: #3e8e41}
+button:hover {background-color: deepskyblue}
 
 button:active {
-  background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+footer{
+    width: 100vw;
+    height: 60px;
 }
