@@ -10,11 +10,11 @@
 }
 header{
     width: 100vw;
-    height: 60px;
+    height: 40px;
 }
 header p{
     color: #000;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     padding: 5px 10px;
     font-family: 'Old Standard TT', serif;
@@ -44,4 +44,301 @@ nav ul li a:hover{
 }
 nav ul li a:active{
     color:aliceblue
+}
+main{
+    width: 100%;
+    height: 1800px;
+    padding: 50px;
+    font-family: 'Old Standard TT', serif;
+    font-size: 30px;
+}
+.US2{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:left;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.US2 p{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Macondo', cursive;
+    position: relative;
+    float: left;
+}
+.button1{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    float:left;
+  }
+  
+  .button1:hover{background-color: deepskyblue}
+  
+  .button1:active {
+    background-color: #fff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.AUS2{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:right;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.AUS2 p{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Macondo', cursive;
+    position: relative;
+    float: right;
+}
+.button2{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    float:right;
+  }
+  
+  .button2:hover{background-color: deepskyblue}
+  
+  .button2:active {
+    background-color: #fff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.UK2{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:left;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.UK2 p{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Macondo', cursive;
+    position: relative;
+    float: left;
+}
+.button3{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    float:left
+  }
+  
+  .button3:hover{background-color: deepskyblue}
+  
+  .button3:active {
+    background-color: #fff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.SPA2{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:right;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.SPA2 p{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Macondo', cursive;
+    position: relative;
+    float: right;
+}
+.button4{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    float:right;
+  }
+  
+  .button4:hover{background-color: deepskyblue}
+  
+  .button4:active {
+    background-color: #fff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.MEX2{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:left;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.MEX2 p{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Macondo', cursive;
+    position: relative;
+    float: left;
+}
+.button5{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    float:left;
+  }
+  
+  .button5:hover{background-color: deepskyblue}
+  
+  .button5:active {
+    background-color: #fff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.FIFA2{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:right;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.FIFA2 p{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Macondo', cursive;
+    position: relative;
+    float: right;
+}
+.button6{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    float:right;
+  }
+  
+  .button6:hover{background-color: deepskyblue}
+  
+  .button6:active {
+    background-color: #fff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+footer{
+    width: 100vw;
+    height:200px;
+    position:relative;
+}
+.US{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+  
+
+}
+.AUS{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float: right;
+   
+}
+.UK{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+}
+.SPA{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+}
+.MEX{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+}
+.FIFA{
+    width: 33.3%;
+    height: 50px;
+    border: none;
+    float: right;
+}
+.signoff{
+   text-align: center;
+   width: 100px;
+   height: 50px;
+   float: inline-end;
 }
