@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#grad1 {
+    height: 200px;
+    background-color: deepskyblue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1));
+}
+header{
+    width: 100vw;
+    height: 60px;
+}
+header p{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Old Standard TT', serif;
+}
+nav{
+    width: 100vw;
+    height: 60px;
+    text-align: right;
+    position: sticky;
+    /* text-align: center;*/
+}
+.logo{
+    float: left;
+    margin: 5px 20px;
+}
+nav ul{
+    list-style-type: none;
+
+}
+nav li{ 
+    display: inline-block;
+    margin: 20px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{ 
+    color: aqua;
+}
+nav ul li a:active{
+    color:aliceblue
+}
+
+main{
+    width: 100%;
+    height: 1200x;
+    padding: 50px;
+    font-family: 'Old Standard TT', serif;
+    font-size: 30px;
+}
+.US3{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:left;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.button10{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button10:hover {background-color: #3e8e41}
+  
+  .button10:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.AUS3{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:right;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.UK3{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:left;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.SPA3{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:right;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.MEX3{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:left;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+.FIFA3{
+    width: 33.3%;
+    height: 300px;
+    border:none;
+    float:right;
+    border: 15px;
+    margin: 10px;
+    border-color: black;
+    border-style: double;
+}
+
+
+footer{
+    width: 100vw;
+    height: 200px;
+    position:relative;
+}
+.US{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+  
+
+}
+.AUS{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float: right;
+   
+}
+.UK{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+}
+.SPA{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+}
+.MEX{
+    width: 33.3%;
+    height: 50px;
+    border:none;
+    float:left;
+}
+.FIFA{
+    width: 33.3%;
+    height: 50px;
+    border: none;
+    float: right;
+}
+.signoff{
+   text-align: center;
+   width: 100px;
+   height: 50px;
+   float: inline-end;
+}
